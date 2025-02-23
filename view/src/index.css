@@ -1,0 +1,19 @@
+/* Admin layout styles */
+.admin-layout {
+    background-color: #f8f9fa;
+}
+
+.admin-layout main {
+    min-height: calc(100vh - 136px); /* navbar və footer-in hündürlüyünü çıxırıq */
+}
+
+/* Admin navbar styles */
+.admin-navbar .nav-link {
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.admin-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
